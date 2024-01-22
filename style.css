@@ -1,0 +1,45 @@
+button {
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 12px 40px;
+  cursor: pointer;
+  display: block;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: forestgreen;
+}
+
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.popup {
+  font-family: arial;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  max-width: 300px;
+  height: fit-content;
+  margin: 10% auto;
+  padding: 20px;
+  position: relative;
+}
+
+.popup-close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
